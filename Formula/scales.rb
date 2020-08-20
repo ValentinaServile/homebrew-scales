@@ -7,11 +7,6 @@ class Scales < Formula
   version "0.0.1"
 
   def install
-
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
     libexec.install Dir["*"]
     bin.write_exec_script (libexec/"scales")
   end
