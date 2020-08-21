@@ -1,10 +1,10 @@
 class Scales < Formula
   desc "CLI utility to calculate major and minor scales from a root note"
   homepage "https://github.com/ValentinaServile/scales"
-  url "https://github.com/ValentinaServile/scales/releases/download/0.1/scales-0.1.tar.gz"
-  sha256 "5edaffffcf0bd3e3f059a73757d004e8eb0a77ea28a0de74e5d01d7fad0b22bc"
+  url "https://github.com/ValentinaServile/scales/releases/download/v1.0.0/scales-1.0.0.tar.gz"
+  sha256 "24e2f476f5f03ab8c66e35b21246fe2c6e12e54d8778d174e46bc6dac7216713"
   license "https://github.com/ValentinaServile/scales/blob/master/LICENSE.md"
-  version "0.0.1"
+  version "1.0.0"
 
   def install
     libexec.install Dir["*"]
